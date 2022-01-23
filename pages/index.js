@@ -64,13 +64,16 @@ export default function App() {
         sx={{ maxHeight: '100vh', overflow: 'scroll' }}
       >
         <Story />
-        <Box as="form" sx={{ borderRadius: 6, mb: 4 }}>
-          <Input placeholder="Your Email Address" />
-          <Input my={3} placeholder="Your Full Name" />
-          <Input placeholder="Your Game Name" />
+        <Box as="form" sx={{ borderRadius: 6, mb: 4 }} method="POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdf0_7JSuDBd0DBVOz-axXebOokmP8ykPDvmvElOi575zROXw/formResponse">
+          <Input placeholder="Your Email Address" name="entry.590954332" type="email" required />
+          <Input my={3} placeholder="Your Full Name" name="entry.1875218698" required  />
+          <Input placeholder="Your Game's Name" name="entry.875359557" required />
+          <Input placeholder="Link To Download / Play Game" my={3} name="entry.929135500" required />
           <Textarea
             placeholder="About Your Game (how to play it and the story behind it)"
-            my={3}
+            mb={3}
+            name="entry.1656399769"
+            required
           />
           <Button sx={{ width: '100%', borderRadius: 6 }}>
             Submit Your Game!
