@@ -35,7 +35,7 @@ export default function App() {
         <Flex sx={{ p: [3, 4], pb: 3, pt:0, mt: 2 }}>
           <Link href="https://innovationcircuit.com" target="_blank" sx={{height: '60px'}}>
           <Image
-            src="/image-logo.png"
+            src="/logo.png"
             sx={{
               height: '60px',
               borderRadius: '11px',
