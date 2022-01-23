@@ -30,22 +30,32 @@ export default function App() {
       >
         <Image
           src="/spaced-heading.png"
-          sx={{ width: ['80vw', '40vw'], height: 'auto', p: [3, 4], pt: [4, 4] }}
+          sx={{
+            width: ['80vw', '40vw'],
+            height: 'auto',
+            p: [3, 4],
+            pt: [4, 4]
+          }}
         />
-        <Flex sx={{ p: [3, 4], pb: [3, 4], pt:0, mt: 2 }}>
-          <Link href="https://innovationcircuit.com" target="_blank" sx={{height: '60px'}}>
-          <Image
-            src="/logo.png"
-            sx={{
-              height: '60px',
-              borderRadius: '11px',
-              border: '2.5px solid white',
-              transition: 'ease-in-out 0.1s',
-              ':hover':{
-                border: '3px solid white'
-              }
-            }}
-          /></Link>
+        <Flex sx={{ p: [3, 4], pb: [3, 4], pt: 0, mt: 2 }}>
+          <Link
+            href="https://innovationcircuit.com"
+            target="_blank"
+            sx={{ height: '60px' }}
+          >
+            <Image
+              src="/logo.png"
+              sx={{
+                height: '60px',
+                borderRadius: '11px',
+                border: '2.5px solid white',
+                transition: 'ease-in-out 0.1s',
+                ':hover': {
+                  border: '3px solid white'
+                }
+              }}
+            />
+          </Link>
         </Flex>
       </Flex>
       <Box
