@@ -41,7 +41,6 @@ export default function App() {
               borderRadius: '11px',
               border: '2.5px solid white',
               transition: 'ease-in-out 0.1s',
-              mr: 2,
               ':hover':{
                 border: '3px solid white'
               }
