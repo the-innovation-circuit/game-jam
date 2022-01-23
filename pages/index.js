@@ -39,7 +39,7 @@ export default function App() {
             sx={{
               height: '60px',
               borderRadius: '11px',
-              border: '1.9px solid white',
+              border: '2.5px solid white',
               transition: 'ease-in-out 0.1s',
               mr: 2,
               ':hover':{
