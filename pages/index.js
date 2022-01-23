@@ -43,8 +43,7 @@ export default function App() {
               transition: 'ease-in-out 0.1s',
               mr: 2,
               ':hover':{
-                border: '3px solid white',
-                boxShadow: 'card'
+                border: '3px solid white'
               }
             }}
           /></Link>
