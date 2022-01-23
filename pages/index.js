@@ -32,7 +32,7 @@ export default function App() {
           src="/spaced-heading.png"
           sx={{ width: '80%', p: [3, 4], pt: [4, 4] }}
         />
-        <Flex sx={{ p: [3, 4], pb: 3, pt:0, mt: 2 }}>
+        <Flex sx={{ p: [3, 4], pb: [3, 4], pt:0, mt: 2 }}>
           <Link href="https://innovationcircuit.com" target="_blank" sx={{height: '60px'}}>
           <Image
             src="/logo.png"
