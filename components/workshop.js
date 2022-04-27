@@ -8,7 +8,6 @@ export default function liveWorkshop({ name, date }) {
         <Text sx={{ fontWeight: 500 }} mr={1}>{name}</Text> ({date})
       </Box>
       <Icon glyph="youtube" size="28" />
-      <Icon glyph="event-add" size="28" />
     </Box>
   )
 }
