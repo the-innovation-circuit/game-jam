@@ -1,4 +1,4 @@
-import { Box, Text } from "theme-ui";
+import { Box, Link, Text } from "theme-ui";
 import Icon from 'supercons'
 
 export default function liveWorkshop({ name, date }) {
@@ -7,7 +7,9 @@ export default function liveWorkshop({ name, date }) {
       <Box sx={{ flexGrow: 1 }}>
         <Text sx={{ fontWeight: 500 }} mr={1}>{name}</Text> ({date})
       </Box>
-      <Icon glyph="youtube" size="28" />
+      <Link href="https://www.youtube.com/channel/UCJb8wQnp0SHsN5vyhAZgklg" target="_blank" sx={{ display: 'flex', alignItems: 'center' }}>
+        <Icon glyph="youtube" size="28" />
+      </Link>
     </Box>
   )
 }
