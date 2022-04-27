@@ -82,7 +82,7 @@ export default function App() {
         sx={{ maxHeight: '100vh', overflow: 'scroll' }}
       >
         <Story />
-        <Button sx={{ width: '100%', borderRadius: 6, mt: 2 }} as="a" href="https://itch.io/jam/sg-game-jam">
+        <Button sx={{ width: '100%', borderRadius: 6, mt: 2 }} as="a" href="https://sg-game-jam.devpost.com">
           Register & Submit On Devpost
         </Button>
       </Box>
