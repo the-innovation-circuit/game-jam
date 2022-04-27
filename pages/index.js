@@ -19,7 +19,7 @@ export default function App() {
         sx={{
           minHeight: ['20px', '100vh'],
           background: [
-            'linear-gradient(107deg, rgba(170,55,80,0.9) 0%, rgba(170,55,80,0.9) 80%), url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80)',
+            'linear-gradient(107deg, rgba(170,55,80,0.6) 0%, rgba(170,55,80,0.6) 80%), url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80)',
             'linear-gradient(107deg, rgba(236,55,80,0.3) 0%, rgba(236,55,80,0.3) 80%), url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80)'
           ],
           backgroundSize: 'cover',
