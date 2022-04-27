@@ -56,6 +56,24 @@ export default function App() {
               }}
             />
           </Link>
+          <Link
+            href="https://xcledu.com/"
+            target="_blank"
+            sx={{ height: '60px', ml: 2 }}
+          >
+            <Image
+              src="/xcl.png"
+              sx={{
+                height: '60px',
+                borderRadius: '11px',
+                border: '2.5px solid white',
+                transition: 'ease-in-out 0.1s',
+                ':hover': {
+                  border: '3px solid white'
+                }
+              }}
+            />
+          </Link>
         </Flex>
       </Flex>
       <Box
@@ -65,7 +83,7 @@ export default function App() {
       >
         <Story />
         <Button sx={{ width: '100%', borderRadius: 6, mt: 2 }} as="a" href="https://itch.io/jam/sg-game-jam">
-          Submit Your Game on itch.io
+          Register & Submit On Devpost
         </Button>
       </Box>
     </Grid>

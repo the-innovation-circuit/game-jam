@@ -1,12 +1,47 @@
-This February we're inviting students to create a video game and submit it to the SG Game Jam.  The creator of the best game will win a $500 e-voucher, whilst the second and third place games will each receive a $300 and $200 e-voucher respectively (the vouchers may be from any online retailer).
+import Workshop from './workshop.js'
+import { Box, Text } from 'theme-ui'
+
+We're inviting students to create a video game and submit it to the SG Game Jam. The creator of the best game will win a $500 e-voucher, whilst the second and third place games will each receive a $300 and $200 e-voucher respectively (the vouchers may be from any online retailer).
 
 The rules of the game jam are:
 
--   Open for students aged 8 to 23
--   Game must be openable on either Windows or Mac
--   Game must be appropriate for a PG13 audience
--   Game must be built within the competition period
+- Open for students aged 8 to 23
+- Game must be openable on either Windows or Mac
+- Game must be appropriate for a PG13 audience
+- Game must be built within the competition period
 
 Thats all! You have full creative freedom to build whatever you'd like. If you're looking for a place to start, our friends at Hack Club has a [great set of workshops on game development](https://workshops.hackclub.com/#games).
 
-**_Once you've got a game, submit it here!_**
+We will also be hosting live workshops featuring industry experts (from Riot Games & Epic Games) every Friday (5pm to 7pm SGT) of the jam:
+
+<Workshop name="TBC Workshop #1" date="13th May" />
+
+<Workshop name="TBC Workshop #2" date="20th May" />
+
+<Workshop name="TBC Workshop #3" date="27th May" />
+
+<Workshop name="TBC Workshop #4" date="3rd June" />
+
+<Box
+  bg="sunken"
+  p={2}
+  px={3}
+  sx={{
+    borderRadius: 5,
+    mb: 2,
+    display: 'flex',
+    alignItems: 'center',
+    gap: '6px'
+  }}
+>
+  <details>
+    <summary>In Singapore? You can join the workshops in-person!</summary>
+    <hr />
+    The workshops will be hosted at XCL World Academy Singapore (2 Yishun Street
+    42, Singapore 768039). The public is welcome to travel to the school and
+    participate in the workshops. Free food and drink will be provided as well
+    as support on games.
+  </details>
+</Box>
+
+Submissions are due at 11:59pm SGT (GMT+8) on June 5th. Submissions can be made using Devpost ([instructions](https://help.devpost.com/hc/en-us/articles/360054999651-How-to-enter-a-submission)) and you can [contact the organising team](mailto:contact@innovationcircuit.com) if you need support.
