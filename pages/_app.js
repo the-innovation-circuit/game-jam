@@ -4,6 +4,7 @@ import '@the-innovation-circuit/theme/fonts/fonts.css'
 import theme from '@the-innovation-circuit/theme'
 import { ThemeProvider } from 'theme-ui'
 import Head from 'next/head'
+import Script from 'next/script'
 
 export default class App extends NextApp {
   render() {
@@ -17,29 +18,30 @@ export default class App extends NextApp {
         }}
       >
         <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <title>The SG Game Jam | By the Innovation Circuit</title>
-        <meta name="title" content="The SG Game Jam | By the Innovation Circuit" />
-        <meta
-          name="description"
-          content="Calling all teenagers in Singapore & SEA to create a video game and win up to $500!"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="The Innovation Circuit" />
-        <meta
-          property="og:description"
-          content="Calling all teenagers in Singapore & SEA to create a video game and win up to $500!"
-        />
-        <meta
-          property="og:image"
-          content="https://jam.innovationcircuit.com/meta-image.png"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:image"
-          content="https://jam.innovationcircuit.com/meta-image.png"
-        />
-      </Head>
+          <link rel="icon" href="/favicon.ico" />
+          <title>The SG Game Jam | By the Innovation Circuit</title>
+          <meta name="title" content="The SG Game Jam | By the Innovation Circuit" />
+          <meta
+            name="description"
+            content="Calling all teenagers in Singapore & SEA to create a video game and win up to $500!"
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="The Innovation Circuit" />
+          <meta
+            property="og:description"
+            content="Calling all teenagers in Singapore & SEA to create a video game and win up to $500!"
+          />
+          <meta
+            property="og:image"
+            content="https://jam.innovationcircuit.com/meta-image.png"
+          />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta
+            property="twitter:image"
+            content="https://jam.innovationcircuit.com/meta-image.png"
+          />
+        </Head>
+        <Script data-website-id="abb88a89-0aef-490e-8f3e-ee247d4b5fcd" src="https://analytics.sampoder.com/umami.js" />
         <Component {...pageProps} />
         <style>
           {`
