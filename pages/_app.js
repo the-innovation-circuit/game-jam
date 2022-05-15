@@ -41,7 +41,7 @@ export default class App extends NextApp {
             content="https://jam.innovationcircuit.com/meta-image.png"
           />
         </Head>
-        <Script data-website-id="abb88a89-0aef-490e-8f3e-ee247d4b5fcd" src="https://analytics.sampoder.com/umami.js" />
+        <Script data-website-id="ee0f2cf5-1007-43bf-9ecc-c778535ba0df" src="https://analytics.sampoder.com/umami.js" />
         <Component {...pageProps} />
         <style>
           {`
